@@ -4,11 +4,11 @@ pkgname=tailwindcss-cli
 pkgver=4.1.10 # datasource=npm depName=@tailwindcss/cli
 pkgrel=1
 pkgdesc='A utility-first CSS framework for rapidly building custom user interfaces.'
-arch=("any")
+arch=('any')
 url='https://tailwindcss.com'
 license=('MIT')
-depends=("nodejs" "gcc-libs" "glibc")
-makedepends=("npm")
+depends=('nodejs' 'gcc-libs' 'glibc')
+makedepends=('npm')
 provides=('tailwindcss')
 
 source=("https://registry.npmjs.org/@tailwindcss/cli/-/cli-${pkgver}.tgz"
