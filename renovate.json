@@ -13,6 +13,7 @@
       "groupName": null
     }
   ],
+  "prConcurrentLimit": 0,
   "customManagers": [
     {
       "customType": "regex",
