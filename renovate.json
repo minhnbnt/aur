@@ -7,12 +7,16 @@
     ":semanticCommitScope(deps)",
     "helpers:pinGitHubActionDigests"
   ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "groupName": null
+    }
+  ],
   "customManagers": [
     {
       "customType": "regex",
-      "managerFilePatterns": [
-        "/(^|/)PKGBUILD$/"
-      ],
+      "managerFilePatterns": ["/(^|/)PKGBUILD$/"],
       "matchStrings": [
         "pkgver=(?<currentValue>\\S+)\\s*#\\s*datasource=(?<datasource>\\S+)\\s+depName=(?<depName>\\S+)\\s*\\n"
       ],
