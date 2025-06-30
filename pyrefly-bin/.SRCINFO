@@ -1,0 +1,11 @@
+pkgbase = pyrefly-bin
+	pkgdesc = A fast type checker and IDE for Python
+	pkgver = 0.21.0
+	pkgrel = 1
+	url = https://pyrefly.org/
+	arch = x86_64
+	license = MIT
+	source_x86_64 = pyrefly-x86_64-0.21.0.vsix::https://meta.gallery.vsassets.io/_apis/public/gallery/publisher/meta/extension/pyrefly/0.21.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?targetPlatform=linux-x64
+	sha256sums_x86_64 = 960bfd6538628d1246713b7fe1ce525be62f543ac8406b6bde9af2bfe1c52189
+
+pkgname = pyrefly-bin
