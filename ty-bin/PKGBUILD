@@ -1,7 +1,7 @@
 # Contributor: Nguyễn Quang Minh <minhnbnt at gmail dot com>
 
 pkgname=ty-bin
-pkgver=0.0.1-alpha.13 # datasource=github-releases depName=astral-sh/ty
+pkgver=0.0.1-alpha.13 # datasource=github-tags depName=astral-sh/ty
 pkgver="${pkgver//-/_}"
 pkgrel=1
 pkgdesc='An extremely fast Python type checker and language server, written in Rust.'
@@ -12,14 +12,14 @@ license=('MIT')
 provides=('ty')
 conflicts=('ty')
 
-_baseurl="https://github.com/astral-sh/ty/releases/download/${pkgver//_/-}"
+_baseurl="${url}/releases/download/${pkgver//_/-}"
 
 source_aarch64=("ty-aarch64-${pkgver}.tgz::${_baseurl}/ty-aarch64-unknown-linux-gnu.tar.gz")
 source_armv7=("ty-armv7-${pkgver}.tgz::${_baseurl}/ty-armv7-unknown-linux-gnueabihf.tar.gz")
 source_i686=("ty-i686-${pkgver}.tgz::${_baseurl}/ty-i686-unknown-linux-gnu.tar.gz")
 source_x86_64=("ty-x86_64-${pkgver}.tgz::${_baseurl}/ty-x86_64-unknown-linux-gnu.tar.gz")
 
-source=("https://raw.githubusercontent.com/astral-sh/ty/refs/tags/${pkgver//_/-}/LICENSE")
+source=("LICENSE-${pkgver}::${url}/raw/refs/tags/v${pkgver}/LICENSE")
 
 sha256sums=('860e3d7a86b84e6a7012c7a635fc64df475cebc6cce34dfeb73a5982ec58176c')
 sha256sums_aarch64=('41f3c71e036b7d74ee134a646e7825d592476b8019eaa02b8a9bb37afe5e260d')
@@ -32,7 +32,7 @@ package() {
 	local target="${pkgdir}/usr/bin/ty"
 
 	install -Dm755 "ty-${CARCH}-unknown-linux-gnu/ty" "$target"
-	install -Dm644 "LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	install -Dm644 "LICENSE-${pkgver}" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 
 	$target generate-shell-completion bash | \
 	install -Dm0644 /dev/stdin "$pkgdir/usr/share/bash-completion/completions/$pkgbase.bash"

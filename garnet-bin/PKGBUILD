@@ -16,7 +16,7 @@ depends=("dotnet-runtime-9.0" "gcc-libs" "glibc" "libaio")
 source=(
 	"garnet-${pkgver}.tar.xz::https://github.com/microsoft/${_pkgname}/releases/download/v${pkgver}/linux-x64-based.tar.xz"
 	"garnet-server.service::https://aur.archlinux.org/cgit/aur.git/plain/garnet-server.service?h=garnet" # jiri.pospisil's service
-	"https://raw.githubusercontent.com/microsoft/garnet/refs/tags/v${pkgver}/LICENSE"
+	"LICENSE-${pkgver}::https://raw.githubusercontent.com/microsoft/garnet/refs/tags/v${pkgver}/LICENSE"
 )
 
 sha256sums=('fe4ca7767081bf48156929da7480e9baf4d25283007a89a6239ab9c23cbb16b1'
@@ -37,5 +37,5 @@ package() {
 	sed -ie "s/network-online/network/g" "garnet-server.service"
 	install -Dm644 -t "$pkgdir/usr/lib/systemd/system" "garnet-server.service"
 
-	install -Dm644 "LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+	install -Dm644 "LICENSE-${pkgver}" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
