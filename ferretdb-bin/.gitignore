@@ -1,0 +1,8 @@
+*
+!PKGBUILD
+!.SRCINFO
+!.gitignore
+!ferretdb@.service
+!ferretdb.target
+!ferretdb.sysusers
+!ferretdb.tmpfiles
