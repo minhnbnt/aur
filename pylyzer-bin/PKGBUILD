@@ -2,7 +2,7 @@
 
 pkgname=pylyzer-bin
 _pkgname=pylyzer
-pkgver=0.0.82 # datasource=github-releases depName=mtshiba/pylyzer
+pkgver=0.1.0-beta.0 # datasource=github-releases depName=mtshiba/pylyzer
 pkgrel=1
 pkgdesc='A fast static code analyzer & language server for Python'
 arch=('aarch64' 'armv7h' 'x86_64')
