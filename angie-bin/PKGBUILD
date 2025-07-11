@@ -88,8 +88,8 @@ for package in "${_packages[@]}"; do
 	)
 done
 
-sha256sums_x86_64=('5eb3d9adc4b4ef07ed509aa9b2525795ffc527519d7f20f39687e546785bd64c')
-sha256sums_aarch64=('2247b27075c9e5f6e06648029891d6780707e7f9920f4c2a87c28f864df4f1df')
+sha256sums_x86_64=('6876e438af6f3c1d98cbdd1fef631138b73200365446dd0e17902347e2077062')
+sha256sums_aarch64=('4f1dcebf0faa99434ec2d6b2be3dbfc9f2b3a643013c565abc1c390f57f1439b')
 
 package() {
 
