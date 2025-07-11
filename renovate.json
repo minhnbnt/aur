@@ -10,8 +10,11 @@
   "packageRules": [
     {
       "matchPackageNames": ["*"],
-	  "versioning": "loose",
       "groupName": null
+    },
+    {
+      "matchDepNames": ["webserver-llc/angie"],
+      "versioning": "regex:^(Angie-)(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$"
     }
   ],
   "prConcurrentLimit": 0,
