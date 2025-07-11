@@ -1,7 +1,8 @@
 # Contributor: Nguyễn Quang Minh <minhnbnt at gmail dot com>
 
 pkgname=angie-bin
-pkgver=1.9.1 # datasource=github-releases depName=webserver-llc/angie
+pkgver=Angie-1.9.1 # datasource=github-releases depName=webserver-llc/angie
+pkgver=${pkgver#Angie-}
 _pkgver="${pkgver}-1"
 pkgrel=1
 pkgdesc='Actively developing fork of nginx aiming to keep it great with brand new extra functionality.'
