@@ -5,7 +5,7 @@
 # Contributor: Noel Jacob (bun-bin PKGBUILD)
 
 pkgname=templ-bin
-pkgver=0.3.865 # datasource=github-releases depName=a-h/templ
+pkgver=0.3.906 # datasource=github-releases depName=a-h/templ
 pkgrel=1
 pkgdesc="A language for writing HTML user interfaces in Go."
 arch=('aarch64' 'i386' 'x86_64')
