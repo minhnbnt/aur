@@ -17,7 +17,7 @@ source=(
 )
 noextract=("${pkgname}-${pkgver}.tgz")
 
-sha256sums=('578b85af828393585f1ba46469e14a059be6b2f11b906233d0c0447fc1795a68'
+sha256sums=('a654869a65a3a0ef8c04554e005bf6695c34f83e8e69452303be9fb3be100ea9'
             'b6f2eebb6983c993a6e12614cc806838de3835ce8931e9f08e3538ee89ada3f1')
 
 package() {
