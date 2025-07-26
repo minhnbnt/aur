@@ -2,7 +2,7 @@
 
 _author=olrtg
 pkgname=emmet-language-server
-pkgver=2.6.1  # datasource=npm depName=@olrtg/emmet-language-server
+pkgver=2.7.0  # datasource=npm depName=@olrtg/emmet-language-server
 pkgrel=2
 pkgdesc="A language server for emmet.io"
 arch=("any")
