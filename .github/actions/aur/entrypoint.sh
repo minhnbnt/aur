@@ -8,8 +8,9 @@ echo "::endgroup::"
 # Set path
 WORKPATH=$GITHUB_WORKSPACE/$INPUT_PKGNAME
 HOME=/home/builder
+
 echo "::group::Copying files from $WORKPATH to $HOME/gh-action"
-# Set path permision
+# Set path permission
 cd $HOME
 mkdir gh-action
 cd gh-action
@@ -19,6 +20,10 @@ echo "::endgroup::"
 
 echo "::group::Updating archlinux-keyring"
 sudo pacman -S --noconfirm archlinux-keyring
+echo "::endgroup::"
+
+echo "::group::Change pkgrel back to 1"
+sed -i '/^pkgrel\=[0-9]\+$/c\pkgrel=1' PKGBUILD
 echo "::endgroup::"
 
 echo "::group::Updating checksums on PKGBUILD"
