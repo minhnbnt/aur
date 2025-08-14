@@ -13,8 +13,8 @@ options=('!strip')
 conflicts=('tailwindcss')
 provides=('tailwindcss')
 
-_repourl="https://github.com/tailwindlabs"
-_baseurl="${_repourl}/tailwindcss/releases/download/v${pkgver}"
+_repourl="https://github.com/tailwindlabs/tailwindcss"
+_baseurl="${_repourl}/releases/download/v${pkgver}"
 
 source_aarch64=("tailwindcss-${pkgver}-aarch64::${_baseurl}/tailwindcss-linux-arm64")
 source_x86_64=("tailwindcss-${pkgver}-x86_64::${_baseurl}/tailwindcss-linux-x64")
