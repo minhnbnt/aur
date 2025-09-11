@@ -14,11 +14,15 @@
     },
     {
       "matchDepNames": ["astral-sh/ty"],
-	  "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(?:-alpha\\.(?<build>\\d+))?$"
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(?:-alpha\\.(?<build>\\d+))?$"
     },
     {
       "matchDepNames": ["webserver-llc/angie"],
       "versioning": "regex:^(Angie-)(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$"
+    },
+    {
+      "matchDepNames": ["phpactor/phpactor"],
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)\\.(?<build>\\d+)?$"
     }
   ],
   "prConcurrentLimit": 0,
