@@ -12,7 +12,7 @@ options=('!strip')
 provides=('basedpyright')
 
 source=("https://registry.npmjs.org/basedpyright/-/basedpyright-${pkgver}.tgz")
-sha256sums=('c0607a915203e9375eb015aebf36ff0614a29094b089d63c922ff65f4ecca213')
+sha256sums=('062fc07bdd87cdd767f9195c528a9fd1a8f7762ce0104caa35502335ac866e20')
 
 package() {
 
