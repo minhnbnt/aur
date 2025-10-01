@@ -2,7 +2,7 @@
 # Contributor: Nguyễn Quang Minh <minhnbnt at gmail dot com>
 
 pkgname=tailwindcss-bin
-pkgver=4.1.13 # datasource=github-releases depName=tailwindlabs/tailwindcss
+pkgver=4.1.14 # datasource=github-releases depName=tailwindlabs/tailwindcss
 pkgrel=1
 pkgdesc='Standalone Tailwind CLI without dependency on Node.js'
 arch=('aarch64' 'x86_64')
