@@ -6,7 +6,7 @@ _Name="FerretDB"
 _pkgname="${_Name,,}"
 
 pkgname="${_pkgname}-bin"
-pkgver=2.5.0 # datasource=github-releases depName=FerretDB/FerretDB
+pkgver=2.7.0 # datasource=github-releases depName=FerretDB/FerretDB
 pkgrel=1
 pkgdesc='A proxy that converts MongoDB queries to SQL and uses PostgreSQL as the database engine'
 arch=('aarch64' 'x86_64')
