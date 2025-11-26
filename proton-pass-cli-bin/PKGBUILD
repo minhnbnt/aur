@@ -7,7 +7,7 @@ pkgdesc='A command-line interface for managing your Proton Pass vaults, items, a
 arch=('aarch64' 'x86_64')
 url='https://protonpass.github.io/pass-cli/'
 depends=('glibc' 'gcc-libs')
-license=('Proprietary')
+license=('proprietary')
 
 source_aarch64=("https://proton.me/download/pass-cli/${pkgver}/pass-cli-linux-aarch64")
 source_x86_64=("https://proton.me/download/pass-cli/${pkgver}/pass-cli-linux-x86_64")
