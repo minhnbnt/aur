@@ -1,7 +1,7 @@
-pkgbase = pyrefly-bin
+pkgbase = container-use-bin
 	pkgdesc = Development environments for coding agents.
 	pkgver = 0.4.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://container-use.com
 	arch = aarch64
 	arch = x86_64
@@ -13,4 +13,4 @@ pkgbase = pyrefly-bin
 	source_x86_64 = https://github.com/dagger/container-use/releases/download/v0.4.2/container-use_v0.4.2_linux_amd64.tar.gz
 	sha256sums_x86_64 = 3fa52b5833ae4aed2be4b86f7cf42671fdf4bca8c211fe5fff08cc19553d409b
 
-pkgname = pyrefly-bin
+pkgname = container-use-bin

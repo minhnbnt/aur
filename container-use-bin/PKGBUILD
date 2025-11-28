@@ -2,7 +2,7 @@
 
 pkgname=container-use-bin
 pkgver=0.4.2 # datasource=github-releases depName=dagger/container-use
-pkgrel=1
+pkgrel=2
 pkgdesc='Development environments for coding agents.'
 arch=('aarch64' 'x86_64')
 url='https://container-use.com'
