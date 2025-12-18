@@ -1,7 +1,7 @@
 # Contributor: Nguyễn Quang Minh <minhnbnt at gmail dot com>
 
 pkgname=ty-bin
-pkgver=0.0.2 # datasource=github-tags depName=astral-sh/ty
+pkgver=0.0.3 # datasource=github-tags depName=astral-sh/ty
 pkgver="${pkgver//-/_}"
 pkgrel=1
 pkgdesc='An extremely fast Python type checker and language server, written in Rust.'
