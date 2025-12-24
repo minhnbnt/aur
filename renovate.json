@@ -13,10 +13,6 @@
       "groupName": null
     },
     {
-      "matchDepNames": ["astral-sh/ty"],
-      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(?:-alpha\\.(?<build>\\d+))?$"
-    },
-    {
       "matchDepNames": ["webserver-llc/angie"],
       "versioning": "regex:^(Angie-)(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)$"
     },
