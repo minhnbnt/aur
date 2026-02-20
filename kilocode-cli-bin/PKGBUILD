@@ -1,7 +1,7 @@
 # Contributor: Nguyễn Quang Minh <minhnbnt at gmail dot com>
 
 pkgname=kilocode-cli-bin
-pkgver=1.0.23 # datasource=npm depName=@kilocode/cli
+pkgver=1.0.24 # datasource=npm depName=@kilocode/cli
 pkgrel=2
 pkgdesc='The all-in-one agentic engineering platform.'
 arch=('aarch64' 'x86_64')
