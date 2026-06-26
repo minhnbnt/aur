@@ -1,7 +1,7 @@
 # Maintainer: Nguyễn Quang Minh <minhnbnt at gmail dot com>
 
 pkgname=java-debug
-pkgver=0.53.1 # datasource=github-releases depName=microsoft/java-debug
+pkgver=0.53.2 # datasource=github-releases depName=microsoft/java-debug
 pkgrel=1
 pkgdesc="The debug server implementation for Java."
 arch=(any)
