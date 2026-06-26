@@ -14,7 +14,7 @@ conflicts=('phpactor' 'phpactor-git')
 source=("phpactor-${pkgver}.phar::${url}/releases/download/${pkgver}/phpactor.phar"
         "LICENSE-${pkgver}::${url}/raw/refs/tags/${pkgver}/LICENSE")
 
-sha256sums=('3b6e79c4144bb39d56e762222861e4f1af5ededa79412511320f11dc2aa38a46'
+sha256sums=('832510fe4cdaf27ba056b8cb66a779d18352585c74fdaac54e45a37b589559e9'
             '4287c3b7c293133dc59e92cb32a1aae899c4441ac6d64455c537c82070c84caa')
 
 package() {
