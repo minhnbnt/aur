@@ -14,8 +14,8 @@ _downloadUrl="https://github.com/protonpass/pass-cli/releases/download/${pkgver}
 source_aarch64=("pass-cli-aarch64-${pkgver}::${_downloadUrl}/pass-cli-linux-aarch64")
 source_x86_64=("pass-cli-x86_64-${pkgver}::${_downloadUrl}/pass-cli-linux-x86_64")
 
-sha256sums_aarch64=('6aa8a9933749c19608a73658369b8133441b6ffed3e83ac6cf3f32b9851b9fa6')
-sha256sums_x86_64=('9d50cb8604e3c7aee0bdd29fcecf4696ed3259134a6c17e4b8adadfde17d7bb6')
+sha256sums_aarch64=('a8597eaf92631242a44c5b9b13b0fd0c0fc56b21a6c4f087b7d4c031651249b3')
+sha256sums_x86_64=('3971bfdb5649bc59634c2195e35259ea3f4b7889bba5a4f6698b6af50b27cf7f')
 
 package() {
 	install -Dm755 "pass-cli-${CARCH}-${pkgver}" "${pkgdir}/usr/bin/pass-cli"
