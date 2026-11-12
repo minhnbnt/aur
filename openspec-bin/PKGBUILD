@@ -2,7 +2,7 @@
 
 pkgname=openspec-bin
 _pkgname=openspec
-pkgver=1.17.0 # datasource=github-releases depName=Fission-AI/OpenSpec
+pkgver=2.0.0 # datasource=github-releases depName=Fission-AI/OpenSpec
 pkgrel=1
 pkgdesc='Spec-driven development (SDD) for AI coding assistants.'
 arch=('aarch64' 'x86_64')
