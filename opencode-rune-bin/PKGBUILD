@@ -1,7 +1,7 @@
 # Contributor: Nguyễn Quang Minh <minhnbnt at gmail dot com>
 
 pkgname=opencode-rune-bin
-pkgver=0.0.0-dev-503 # datasource=github-tags depName=anomalyco/opencode-rune
+pkgver=0.0.0-dev-504 # datasource=github-tags depName=anomalyco/opencode-rune
 pkgver=${pkgver//-/_}
 pkgrel=2
 pkgdesc='OpenCode (Rune) desktop client and embeddable Rune session crates'
