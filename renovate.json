@@ -19,6 +19,10 @@
     {
       "matchDepNames": ["phpactor/phpactor"],
       "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)\\.(?<build>\\d+)?$"
+    },
+    {
+      "matchDepNames": ["anomalyco/opencode-rune"],
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(?:-dev-(?<build>\\d+))?$"
     }
   ],
   "rebaseWhen": "conflicted",
